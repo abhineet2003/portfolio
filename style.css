@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  text-decoration: none;
+}
+html {
+  background-color: #101010;
+  height: 100%;
+}
+.portfolio-section {
+  background-color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 102px 80px;
+  font-family: poppins, sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1708px;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  gap: 20px;
+}
+
+.personal-info {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.name {
+  color: #f3f3f3;
+  font-size: 28px;
+}
+
+.job-title {
+  color: #808080;
+  font-size: 27px;
+  margin-top: 5px;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #f3f3f3;
+  font-weight: 400;
+}
+
+.header-row {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tagline {
+  font-size: 48px;
+  margin-top: 12px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 21px;
+  white-space: nowrap;
+  justify-content: start;
+}
+
+.nav-button {
+  align-self: stretch;
+  border-radius: 81px;
+  background-color: #000;
+  padding: 16px 32px;
+  color: #fff;
+}
+
+.hero-text {
+  font-size: 48px;
+  align-self: start;
+}
+
+.hero-image {
+  aspect-ratio: 2.25;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.scroll-prompt {
+  color: #808080;
+  align-self: center;
+  margin-top: 45px;
+  font-size: 37px;
+}
+
+.section-title {
+  color: #f3f3f3;
+  align-self: start;
+  margin-top: 118px;
+  font-size: 128px;
+}
+
+.featured-works {
+  display: flex;
+  margin-top: 86px;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.work-image {
+  aspect-ratio: 1.96;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 37px;
+  margin-top: 83px;
+}
+
+.about-image {
+  aspect-ratio: 1.26;
+  object-fit: contain;
+  object-position: center;
+  width: 1242px;
+  align-self: center;
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+.experience-container {
+  display: flex;
+  width: 1170px;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  margin: 79px 0 0 52px;
+  font-size: 32px;
+}
+
+.experience-date {
+  color: #aeaeae;
+}
+
+.experience-title {
+  color: #fff;
+  font-size: 48px;
+  margin-top: 16px;
+}
+
+.experience-location {
+  color: #808080;
+  margin-top: 16px;
+}
+
+.experience-skills {
+  display: flex;
+  margin-top: 16px;
+  align-items: start;
+  gap: 1px;
+  font-size: 27px;
+  color: #828282;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.cta-container {
+  display: flex;
+  margin-top: 175px;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 400;
+  text-align: center;
+  justify-content: start;
+}
+
+.cta-text {
+  color: #e7e7e7;
+  font-size: 52px;
+  line-height: 2;
+}
+
+.cta-button {
+  align-self: center;
+  border-radius: 162px;
+  background-color: #000;
+  margin-top: 53px;
+  font-size: 63px;
+  color: #fff;
+  line-height: 1;
+  padding: 52px;
+}
+
+.social-links {
+  align-self: center;
+  display: flex;
+  margin-top: 137px;
+  align-items: start;
+  gap: 40px 73px;
+  justify-content: start;
+}
+
+.social-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 28px;
+}
+
+.footer-text {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  margin-top: 54px;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+@media (max-width: 991px) {
+  .portfolio-section {
+    padding: 0 20px 100px;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .personal-info {
+    margin-top: 40px;
+  }
+
+  .name {
+    margin-right: 10px;
+  }
+
+  .main-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .header-row {
+    max-width: 100%;
+  }
+
+  .tagline {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .nav-buttons {
+    white-space: initial;
+  }
+
+  .nav-button {
+    padding: 0 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .scroll-prompt {
+    margin-top: 40px;
+  }
+
+  .section-title {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .featured-works {
+    max-width: 100%;
+    margin: 40px 2px 0 0;
+  }
+
+  .work-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .about-image {
+    margin-top: 40px;
+  }
+
+  .experience-container {
+    margin-top: 40px;
+  }
+
+  .experience-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .cta-container {
+    max-width: 100%;
+    margin: 40px 8px 0 0;
+  }
+
+  .cta-text {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .cta-button {
+    font-size: 40px;
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .social-links {
+    margin-top: 40px;
+  }
+
+  .footer-text {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
